@@ -23,7 +23,7 @@
   # Questions?
   Contact Me: Vidfinnx@yahoo.com
 
-  My Github Page: (https://github.com/Vidfinnx)
+  My Github Page: https://github.com/Vidfinnx
 
   
   
