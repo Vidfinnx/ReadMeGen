@@ -7,7 +7,7 @@
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Test Instructions](#test-instructions)
-  - [Contact Information For Questions](#Questions?)
+  - [Contact Information For Questions](#Questions)
   # Description
   Generates ReadMe files for projects
   # Installation
@@ -23,7 +23,7 @@
   None
   # License
   None
-  # Questions?
+  # Questions
   Contact Me: Vidfinnx@yahoo.com
 
   My Github Page: https://github.com/Vidfinnx
