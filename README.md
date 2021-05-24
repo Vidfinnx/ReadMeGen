@@ -14,6 +14,9 @@
   Clone Git Repository->Npm install inquirer->Terminal->Node index.js
   # Usage
   Free to use for anyone, this file was created using this generator
+  
+  ![ReadMeTest](https://user-images.githubusercontent.com/79023746/119305360-80729b00-bc1d-11eb-9712-dc6fbab083b6.gif)
+
   # Contribution
   Anyone can contribute
   # Test-Instructions
