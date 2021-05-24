@@ -5,7 +5,7 @@ const fs = require("fs");
 // create variable and using require to use npm's path//doesn't need install//part of npm
 const path = require("path");
 // create variable and requiring generateMarkdown.js 
-var generateMarkdown = require("./markDown");
+var generateMarkdown = require("./generateMarkdown.js");
     
 // function to write README file takes in fileName and user data parameters
 function writeToFile(fileName, data) {
@@ -62,16 +62,15 @@ function init() {
       message: "Enter Your Github Username"
     },
     {
+      // Takes email input and validates proper format criteria met for input
       message: "Please enter your email",
       name: "email",
       type: "input",
-      default: () => {},
       validate: function (email) {
 
           valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
 
           if (valid) {
-            console.log("Great job");
               return true;
           } else {
               console.log(".  Please enter a valid email")

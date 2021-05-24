@@ -2,28 +2,33 @@
 function generateMarkdown(data) {
     // returns inquirer prompted data. Writing in markdown inside backticks and using data to personalize markdown page.
     return `# ${data.title}
-  ----
   <a href="https://img.shields.io/badge/License-${data.license[0]}-brightgreen"><img src="https://img.shields.io/badge/License-${data.license[0]}-brightgreen"></a>
-  ## Table of Contents
+  ----
+  # Table of Contents
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Test Instructions](#test-instructions)
-  - [Contact Information](#contact-information)
-  ### Description
+  - [Contact Information For Questions](#Questions?)
+  # Description
   ${data.description}
-  ### Installation
+  # Installation
   ${data.installation}
-  ### Usage
+  # Usage
   ${data.usage}
-  ### Contribution
+  # Contribution
   ${data.contribution}
-  ### Test-Instructions
+  # Test-Instructions
   ${data.tests}
-  ### Contact-Information
-  [Github Profile](https://github.com/${data.username})
-  ${data.email}
+  # License
+  ${data.license}
+  # Questions?
+  Contact Me: ${data.email}
+
+  My Github Page: (https://github.com/${data.username})
+
+  
   `;
   }
   // function exporting generateMarkdown function
