@@ -1,5 +1,5 @@
-# Test Readme generator
-  <a href="https://img.shields.io/badge/License-MIT-brightgreen"><img src="https://img.shields.io/badge/License-MIT-brightgreen"></a>
+# ReadMe File Generator
+  <a href="https://img.shields.io/badge/License-None-brightgreen"><img src="https://img.shields.io/badge/License-None-brightgreen"></a>
   ----
   # Table of Contents
   - [Description](#description)
@@ -9,21 +9,21 @@
   - [Test Instructions](#test-instructions)
   - [Contact Information For Questions](#Questions?)
   # Description
-  test 1
+  Generates ReadMe Files
   # Installation
-  test 3
+  Clone Git Repository->Npm install inquirer->Terminal->Node index.js
   # Usage
-  test 2
+  Free to use for anyone
   # Contribution
-  test 4
+  Anyone can contribute
   # Test-Instructions
-  test 5
+  None
   # License
-  MIT
+  None
   # Questions?
-  Contact Me: aaa@aa.com
+  Contact Me: Vidfinnx@yahoo.com
 
-  My Github Page: (https://github.com/test 6)
+  My Github Page: (https://github.com/Vidfinnx)
 
   
   
