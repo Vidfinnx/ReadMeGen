@@ -26,7 +26,7 @@ function generateMarkdown(data) {
   # Questions?
   Contact Me: ${data.email}
 
-  My Github Page: (https://github.com/${data.username})
+  My Github Page: https://github.com/${data.username}
 
   
   `;
